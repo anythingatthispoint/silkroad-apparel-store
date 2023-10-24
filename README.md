@@ -43,6 +43,7 @@ import { getFirestore, Timestamp } from "firebase/firestore";
 ...
 
 // Initialize Firebase
+...
 export const db = getFirestore(app);
 ```
 
