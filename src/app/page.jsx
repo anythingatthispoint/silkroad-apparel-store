@@ -1,4 +1,16 @@
+'use client'
+
+import { collection, addDoc } from 'firebase/firestore'
+import { db } from './firebase'
+
 function Home() {
+  async function firestore() {
+    await addDoc(collection(db, 'test'), {
+      name: "some random string",
+      int: 123
+    })
+  }
+
   return (
     <main>
       {
@@ -21,6 +33,7 @@ function Home() {
       */
       }
       <p>test</p>
+      <button onClick={firestore}>Database Test</button>
     </main>
   )
 }
