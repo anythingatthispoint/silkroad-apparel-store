@@ -1,1 +1,37 @@
-/* Palagay po ng custom styling dito. hehe. */
+/*--- navigation bar ---*/
+.navbar {
+    background: #272727;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #d8d8d8;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-left: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.page-footer {
+    background-color: #272727;
+    color: #d8d8d8;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
