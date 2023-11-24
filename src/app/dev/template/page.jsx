@@ -1,16 +1,16 @@
-'use client'
+/* 'use client'
 
 import { collection, addDoc } from 'firebase/firestore'
-import { db } from '../../firebase.js'
+import { db } from '../../firebase.js' */
 
 
 function Home() {
-  async function firestore() {
+  /* async function firestore() {
     await addDoc(collection(db, 'test'), {
       name: "some random string",
       int: 123
     })
-  }
+  } */
 
   return (
     <main>
